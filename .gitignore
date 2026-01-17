@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files (don't upload sample data)
+test_*.pdf
+test_*.csv
+sample_*.pdf
+sample_*.csv
+
+# NLTK
+nltk_data/
+
+# Logs
+*.log
+
+# Large files
+*.zip
+*.tar.gz
